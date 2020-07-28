@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    margin: 10px 0;
+}
+.menu{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.menu nav ul{
+
+    list-style: none;
+}
+.menu nav ul a{
+
+    text-decoration: none;
+    color: #A3A3A3;
+    font-size: 19px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.menu nav ul a:hover{
+    color: #101010;
+}
+.menu nav ul li{
+    padding: 10px 40px;
+}
+
+/* style for banner section */
+
+.banner-img img{
+    width: 100%;
+}
+
+/* style for photodiary section */
+
+.container-bottom{
+    width: 70%;
+    margin: 0 auto;
+}
+.photo-diary{ 
+    padding: 60px 0;
+}
+.photo-diary h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #A3A3A3;
+    margin: 20px 0;
+}
+.photo-diary h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #6A6A6A;
+}
+.photo-diary p{
+    font-size: 18px;
+    color: #6A6A6A;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+/* style for lifestyle section */
+
+.life-style{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.life-style img{
+    width: 100%;
+}
+.life-style h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #A3A3A3;
+    margin: 20px 0;
+}
+.life-style h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #6A6A6A;
+}
+.life-style p{
+    font-size: 18px;
+    color: #6A6A6A;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.life-style-left{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 25px;
+}
+.life-style-right{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+/* style for footer */
+
+footer{
+    background: #F0F0F0;
+    overflow: hidden;
+    padding: 30px 0;
+}
+footer ul{
+    list-style: none;
+}
+footer ul a{
+    text-decoration: none;
+    color: #A3A3A3;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+footer ul a:hover{
+    color: #101010;
+}
+footer ul li{
+    padding: 10px 10px;
+}
+footer ul li i{
+    font-size: 16px;
+}
+.link-left{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.link-right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
